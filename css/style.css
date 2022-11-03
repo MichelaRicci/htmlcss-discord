@@ -37,6 +37,27 @@ body {
   background-color: lightgray;
 }
 
+
+.wave {
+  position: relative;
+  background: lightgrey;
+}
+
+.wave:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #lightgrey;
+  background-image: url(../img/wave.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: invert(1);
+
+}
+
 header {
   background-color: #255FE8;
 }
@@ -180,7 +201,6 @@ h3 {
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   margin-bottom: 20px;
-  
  
 }
 
