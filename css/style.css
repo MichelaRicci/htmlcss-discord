@@ -43,7 +43,7 @@ header {
 
 button {
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-style: none;
 
 }
@@ -95,12 +95,15 @@ a {
   text-decoration: none;
 }
 
+.login {
+  height: 35px;
+}
 
 /* # Jumbotron */
 
 .jumbotron {
   padding: 50px;
-  height: 420px;
+  height: 400px;
   /* background-color: darkblue; */
   background-image: url(../img/jumbo.png);
   background-size: cover;
@@ -124,7 +127,7 @@ a {
 
 h1 {
   font-size: 38px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 40px;
 
 }
@@ -137,6 +140,7 @@ p {
 .open {
   background-color: #23272A;
   color: #ffffff;
+  
 
 }
 
@@ -152,17 +156,30 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
+}
+
+.big-section {
+  height: 800px;
+
 }
 
 .flex > .full-col {
   flex-basis: 100%;
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
+  text-align: center;
+}
+
+h3 {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  
+ 
 }
 
 /* # Footer */
