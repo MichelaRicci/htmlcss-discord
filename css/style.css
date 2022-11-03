@@ -165,7 +165,7 @@ section > .container {
 }
 
 .big-section {
-  height: 800px;
+  height: 900px;
 
 }
 
@@ -178,8 +178,14 @@ section > .container {
 h3 {
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
+  margin-bottom: 20px;
   
  
+}
+
+.blue {
+  background-color: #8EA1E1;
+  color: #ffffff;
 }
 
 /* # Footer */
@@ -206,8 +212,9 @@ footer {
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  background-color: #20b2aa;
+  /* background-color: #20b2aa; */
 }
+
 
 .footer-nav {
   height: 100%;
@@ -219,6 +226,21 @@ footer {
   flex-basis: 25%;
 }
 
+.nav-col {
+  display: flex;
+  align-items: flex-start;
+  
+
+}
+
+.footer-list {
+  flex-direction: column;
+  
+}
+
+.hlist {
+  color: #7389DA;
+}
 .footer-bottom {
   display: flex;
   justify-content: space-between;
