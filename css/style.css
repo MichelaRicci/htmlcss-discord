@@ -96,7 +96,7 @@ a {
   text-decoration: none;
 }
 
-.login {
+.small-button {
   height: 35px;
 }
 
@@ -141,7 +141,7 @@ p {
 .open {
   background-color: #23272A;
   color: #ffffff;
-  
+  margin-left: 20px;
 
 }
 
@@ -198,10 +198,10 @@ footer {
 }
 
 .footer-top {
-  height: 600px;
+  height: 400px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid #7389DA;
 
   display: flex;
 }
@@ -266,10 +266,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
