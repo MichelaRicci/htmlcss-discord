@@ -13,7 +13,7 @@ body {
 /* Utils */
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -37,10 +37,17 @@ body {
   background-color: lightgray;
 }
 
-
+/* Inserire codice html di svg tra le sezioni oppure 
 .wave {
   position: relative;
   background: lightgrey;
+  background-image: url(../img/wave.svg);
+  opacity: 0.04;
+
+}
+
+.upside-down {
+  transform: rotate(0.5turn);
 }
 
 .wave:before {
@@ -50,13 +57,13 @@ body {
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: #lightgrey;
   background-image: url(../img/wave.svg);
+  background-color: #lightgrey;
   background-size: cover;
   background-repeat: no-repeat;
   filter: invert(1);
 
-}
+} */
 
 header {
   background-color: #255FE8;
@@ -69,11 +76,36 @@ button {
 
 }
 
+ul {
+  list-style: none;
+  font-size: 14px;
+
+}
 
 .white {
   color: #ffffff;
 }
 
+
+h2 {
+  font-size: 38px;
+  line-height: 45px;
+  margin: 30px 20px;
+  margin-left: 30px;
+
+}
+
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.small-col > p {
+  margin: 30px 20px;
+  margin-left: 30px;
+}
 
 /* # Navbar */
 
@@ -94,31 +126,37 @@ button {
 
 .navbar-menu {
   flex-grow: 1;
-  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .navbar-actions {
   text-align: right;
 }
 
-ul {
-  list-style: none;
+.nav-bar-ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 12px;
 }
 
 li {
-  padding: 8px;
+  padding: 0 12px;
+  color: #ffffff;
 }
 
 a { 
   text-decoration: none;
+  color: #ffffff;
 }
 
 .small-button {
-  height: 35px;
+  height: 32px;
+  padding: 10px 12px;
+  font-size: 12px;
 }
 
 /* # Jumbotron */
@@ -135,7 +173,7 @@ a {
 }
 
 .jumbotron .content {
-  width: 50%;
+  width: 54%;
   height: 100%;
   margin: 0 auto;
   /* background-color: violet; */
@@ -148,16 +186,12 @@ a {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 42px;
   margin-top: 30px;
   margin-bottom: 40px;
 
 }
 
-p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
 
 .open {
   background-color: #23272A;
@@ -186,6 +220,10 @@ section > .container {
   /* background-color: dodgerblue; */
 }
 
+.large-col > img {
+  width: 100%;
+}
+
 .big-section {
   height: 900px;
 
@@ -197,9 +235,16 @@ section > .container {
   text-align: center;
 }
 
-h3 {
+.full-col > img {
+  width: 100%;
+
+}
+
+h4 {
+  font-size: 26px;
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
+  background-size: 60%;
   margin-bottom: 20px;
  
 }
@@ -230,6 +275,14 @@ footer {
   flex-basis: 30%;
   /* background-color: pink; */
 }
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+
 #ita-flag {
   width: 20px;
   margin-top: 30px;
@@ -252,6 +305,10 @@ footer {
   /* background-color: #20b2aa; */
 }
 
+.footer-list > li {
+  line-height: 30px;
+
+}
 
 .footer-nav {
   height: 100%;
@@ -270,12 +327,8 @@ footer {
 
 }
 
-.footer-list {
-  flex-direction: column;
-  
-}
 
-.blue {
+.text-blue {
   color: #7389DA;
   font-weight: bold;
 }
