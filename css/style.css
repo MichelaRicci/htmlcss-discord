@@ -39,7 +39,7 @@ header {
 }
 
 .bg-gray {
-  background-color: lightgray;
+  background-color: #F6F6F6;
 }
 
 
@@ -53,7 +53,7 @@ header {
 }
 
 .wave {
-  color: lightgrey;
+  color: #F6F6F6;
   display: block;
 
 } 
