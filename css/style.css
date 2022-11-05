@@ -75,7 +75,7 @@ header {
 }
 
 button {
-  border-radius: 20px;
+  border-radius: 22px;
   border-style: none;
 }
 
@@ -234,7 +234,7 @@ section > .container {
 }
 
 .big-section {
-  height: 900px;
+  height: 950px;
 
 }
 
@@ -250,17 +250,21 @@ section > .container {
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 20px;
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
-  background-size: 60%;
-  margin-bottom: 20px;
+  background-size: 45%;
+  background-position-x: center;
+  background-position-y: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
  
 }
 
 .blue-button {
   background-color: #8EA1E1;
   color: #ffffff;
+  
 }
 
 /* # Footer */
@@ -311,7 +315,6 @@ h3 {
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  /* background-color: #20b2aa; */
 }
 
 .footer-list > li {
@@ -322,7 +325,6 @@ h3 {
 .footer-nav {
   height: 100%;
   display: flex;
-  /* background-color: #fff; */
 }
 
 .footer-nav > div {
