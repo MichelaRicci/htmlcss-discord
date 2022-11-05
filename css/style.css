@@ -6,8 +6,13 @@
 }
 
 /* Generics */
+
 body {
-  font-family:Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #255FE8;
 }
 
 /* Utils */
@@ -38,37 +43,46 @@ body {
 }
 
 
-
-header {
-  background-color: #255FE8;
+.mleft {
+  margin-left: 40px;
 }
+
+.mright {
+  margin-right: 40px;
+
+}
+
+.wave {
+  color: lightgrey;
+  display: block;
+
+} 
+
+.upside-down {
+  display: block;
+  rotate: 180deg;
+} 
+
 
 .logo {
   width: 70%;
 
 }
 
-button {
-  border-radius: 22px;
-  border-style: none;
-}
-
 ul {
   list-style: none;
   font-size: 13px;
-
 }
 
-.white {
+.text-white {
   color: #ffffff;
 }
-
 
 h2 {
   font-size: 38px;
   line-height: 45px;
   margin: 30px 20px;
-  margin-left: 30px;
+    margin-left: 30px;
 
 }
 
@@ -79,12 +93,52 @@ p {
   margin-bottom: 15px;
 }
 
-.small-col > p {
-  margin: 30px 20px;
-  margin-left: 30px;
+
+
+/* Button */
+
+.button {
+  border-radius: 22px;
+  border-style: none;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+
 }
 
-/* # Navbar */
+a.button {
+  text-decoration: none;
+}
+
+.big-button {
+  padding: 13px 24px;
+  font-size: 16px;
+  
+}
+
+.open {
+  background-color: #23272A;
+  color: #ffffff;
+  margin-left: 20px;
+
+}
+
+.small-button {
+  padding: 6px 7px;
+  font-size: 12px;
+  border-radius: 22px;
+}
+
+.blue-button {
+  background-color: #8EA1E1;
+  color: #ffffff;
+  
+}
+
+
+/* Navbar */
 
 .navbar {
   height: 80px;
@@ -130,12 +184,6 @@ a {
   color: #ffffff;
 }
 
-.small-button {
-  height: 26px;
-  padding: 8px 10px;
-  font-size: 12px;
-  line-height: 50%;
-}
 
 /* # Jumbotron */
 
@@ -170,19 +218,6 @@ h1 {
 
 }
 
-.big-button {
-  padding: 13px 24px;
-  font-size: 16px;
-  
-}
-
-.open {
-  background-color: #23272A;
-  color: #ffffff;
-  margin-left: 20px;
-
-}
-
 /* # Main & sections */
 section {
   padding: 50px;
@@ -203,9 +238,18 @@ section > .container {
   /* background-color: dodgerblue; */
 }
 
+.small-col > p {
+  margin: 30px 20px;
+  margin-left: 30px;
+}
+
+
 .large-col > img {
   width: 100%;
 }
+
+
+/* Big section */
 
 .big-section {
   height: 950px;
@@ -235,31 +279,12 @@ h4 {
  
 }
 
-.blue-button {
-  background-color: #8EA1E1;
-  color: #ffffff;
-  
-}
-
-
-.wave {
-  color: lightgrey;
-  display: block;
-
-} 
-
-.upside-down {
-  display: block;
-  rotate: 180deg;
-} 
-
-
 /* # Footer */
 
 footer {
   padding: 50px;
   background-color: #23272a;
-  /* color: white; */
+  
 }
 
 .footer-top {
@@ -273,7 +298,7 @@ footer {
 
 .footer-top .footer-left {
   flex-basis: 30%;
-  /* background-color: pink; */
+
 }
 
 h3 {
@@ -322,7 +347,6 @@ h3 {
   display: flex;
   align-items: flex-start;
   
-
 }
 
 
@@ -336,9 +360,5 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
-}
-
-.footer-bottom > * {
   padding: 0 10px;
 }
