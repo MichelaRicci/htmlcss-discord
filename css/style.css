@@ -37,33 +37,7 @@ body {
   background-color: lightgray;
 }
 
-/* Inserire codice html di svg tra le sezioni oppure 
-.wave {
-  position: relative;
-  background: lightgrey;
-  background-image: url(../img/wave.svg);
-  opacity: 0.04;
 
-}
-
-.upside-down {
-  transform: rotate(0.5turn);
-}
-
-.wave:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background-image: url(../img/wave.svg);
-  background-color: #lightgrey;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: invert(1);
-
-} */
 
 header {
   background-color: #255FE8;
@@ -266,6 +240,19 @@ h4 {
   color: #ffffff;
   
 }
+
+
+.wave {
+  color: lightgrey;
+  display: block;
+
+} 
+
+.upside-down {
+  display: block;
+  rotate: 180deg;
+} 
+
 
 /* # Footer */
 
